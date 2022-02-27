@@ -145,6 +145,50 @@
         "desktop_layout": "left",
         "mobile_layout": "collage"
       }
+    },
+    "164597928182a952ea": {
+      "type": "testimonial-slider",
+      "blocks": {
+        "628665fe-4fe0-4905-9df9-b19fa6d251f6": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Tellus rutrum tellus pellentesque eu tincidunt. At elementum eu facilisis sed odio morbi quis commodo. Vestibulum lorem sed risus ultricies tristique nulla.<\/p>",
+            "name": "Linda",
+            "image": "shopify:\/\/shop_images\/user_5.jpg"
+          }
+        },
+        "5ef5d5a1-c85b-4346-a57e-15ca54d0fd3c": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Congue quisque egestas diam in arcu cursus euismod quis viverra.<\/p>",
+            "name": "Mike",
+            "image": "shopify:\/\/shop_images\/user_3.jpg"
+          }
+        },
+        "c50d9094-975a-46a3-8134-7debfc32dd22": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Tortor dignissim convallis aenean et tortor at risus viverra. Vitae sapien pellentesque habitant morbi tristique senectus. Massa tempor nec feugiat nisl.<\/p>",
+            "name": "John",
+            "image": "shopify:\/\/shop_images\/user_4.jpg"
+          }
+        },
+        "86c1286d-4bdd-4b62-9187-5a00e46c1069": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Tortor dignissim convallis aenean et tortor at risus viverra. Vitae sapien pellentesque habitant morbi tristique senectus. Massa tempor nec feugiat nisl.<\/p>",
+            "name": "Karen",
+            "image": "shopify:\/\/shop_images\/user_2.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "628665fe-4fe0-4905-9df9-b19fa6d251f6",
+        "5ef5d5a1-c85b-4346-a57e-15ca54d0fd3c",
+        "c50d9094-975a-46a3-8134-7debfc32dd22",
+        "86c1286d-4bdd-4b62-9187-5a00e46c1069"
+      ],
+      "settings": {}
     }
   },
   "order": [
@@ -153,6 +197,7 @@
     "1645901387db184b26",
     "image_text",
     "16459023138c6fe3c6",
-    "164590231816ba9fb5"
+    "164590231816ba9fb5",
+    "164597928182a952ea"
   ]
 }

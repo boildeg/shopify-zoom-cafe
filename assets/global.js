@@ -626,3 +626,27 @@ class VariantRadios extends VariantSelects {
 }
 
 customElements.define('variant-radios', VariantRadios);
+
+
+$('.testimonial-slider').slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  dots: true,
+  responsive: [
+     {
+        breakpoint: 989,
+        settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
+        }
+     },
+     {
+        breakpoint: 750,
+        settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+        }
+     }
+  ]
+});

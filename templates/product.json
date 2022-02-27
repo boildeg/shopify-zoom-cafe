@@ -117,7 +117,7 @@
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
-        "swipe_on_mobile": false
+        "swipe_on_mobile": true
       }
     },
     "product-recommendations": {
@@ -146,12 +146,66 @@
         "show_image_outline": true,
         "show_vendor": false
       }
+    },
+    "16459746280f86e86c": {
+      "type": "testimonial-slider",
+      "blocks": {
+        "a4b6fb0c-34e0-4461-97a9-62a549753c16": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Leo in vitae turpis massa sed elementum tempus. Fames ac turpis egestas sed tempus urna. Est ultricies integer quis auctor.<\/p>",
+            "name": "John",
+            "image": "shopify:\/\/shop_images\/user_1.jpg"
+          }
+        },
+        "2d6cb4dd-be61-4278-9748-db40a59b6d72": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Porta non pulvinar neque laoreet suspendisse interdum consectetur libero id.<\/p>",
+            "name": "Linda",
+            "image": "shopify:\/\/shop_images\/user_2.jpg"
+          }
+        },
+        "c3ed5a4e-a654-41c7-92cc-4d935a39b229": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Hac habitasse platea dictumst quisque. Est ante in nibh mauris cursus mattis molestie a iaculis. Magna ac placerat vestibulum lectus mauris.<\/p>",
+            "name": "Martin",
+            "image": "shopify:\/\/shop_images\/user_3.jpg"
+          }
+        },
+        "3359e517-7dfb-4e3d-9016-d5b3069b77a4": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Nec ultrices dui sapien eget mi proin sed. Ultrices neque ornare aenean euismod elementum nisi quis. Risus quis varius quam quisque id diam vel.<\/p>",
+            "name": "Mike",
+            "image": "shopify:\/\/shop_images\/user_4.jpg"
+          }
+        },
+        "96f7150c-4659-40dc-8848-5b3f1657f6b4": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Proin nibh nisl condimentum id venenatis a condimentum vitae. Suscipit adipiscing bibendum est ultricies integer quis auctor elit.<\/p>",
+            "name": "Kate",
+            "image": "shopify:\/\/shop_images\/user_5.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "a4b6fb0c-34e0-4461-97a9-62a549753c16",
+        "2d6cb4dd-be61-4278-9748-db40a59b6d72",
+        "c3ed5a4e-a654-41c7-92cc-4d935a39b229",
+        "3359e517-7dfb-4e3d-9016-d5b3069b77a4",
+        "96f7150c-4659-40dc-8848-5b3f1657f6b4"
+      ],
+      "settings": {}
     }
   },
   "order": [
     "main",
     "164596725899239f34",
     "product-recommendations",
-    "1645967739a17e49c7"
+    "1645967739a17e49c7",
+    "16459746280f86e86c"
   ]
 }
