@@ -27,7 +27,9 @@
         },
         "variant_picker": {
           "type": "variant_picker",
-          "settings": {}
+          "settings": {
+            "picker_type": "button"
+          }
         },
         "quantity_selector": {
           "type": "quantity_selector",
@@ -35,7 +37,9 @@
         },
         "buy_buttons": {
           "type": "buy_buttons",
-          "settings": {}
+          "settings": {
+            "show_dynamic_checkout": true
+          }
         },
         "description": {
           "type": "description",
@@ -43,7 +47,16 @@
         },
         "share": {
           "type": "share",
+          "disabled": true,
           "settings": {}
+        },
+        "3dffb2ff-2271-4c9a-aa07-3972a15abb76": {
+          "type": "popup",
+          "disabled": true,
+          "settings": {
+            "link_label": "Pop-up link text",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -55,17 +68,90 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "3dffb2ff-2271-4c9a-aa07-3972a15abb76"
       ],
-      "settings": {}
+      "settings": {
+        "enable_sticky_info": true,
+        "enable_video_looping": false
+      }
+    },
+    "164596725899239f34": {
+      "type": "multicolumn",
+      "blocks": {
+        "16459672587059b2b8-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/farmer.png",
+            "title": "Direct Relations to Farmers",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<\/p>"
+          }
+        },
+        "16459672587059b2b8-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/coffee-plant.png",
+            "title": "Plant a Tree for 3rd Order",
+            "text": "<p>Turpis tincidunt id aliquet risus feugiat in ante metus dictum. Consectetur adipiscing elit pellentesque habitant morbi tristique senectus et. Viverra maecenas accumsan lacus vel. Sit amet volutpat consequat mauris nunc congue nisi vitae suscipit. Dolor sit amet consectetur adipiscing elit. Vitae auctor eu augue ut lectus arcu bibendum at.<\/p>"
+          }
+        },
+        "16459672587059b2b8-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/roaster.png",
+            "title": "Roasted by hand in Florida",
+            "text": "<p>Elit sed vulputate mi sit amet mauris commodo. Tempus iaculis urna id volutpat lacus. Justo nec ultrices dui sapien eget mi proin sed. Tellus cras adipiscing enim eu. Tempor orci dapibus ultrices in iaculis. Vestibulum sed arcu non odio euismod lacinia at quis risus. Pellentesque eu tincidunt tortor aliquam nulla facilisi cras. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16459672587059b2b8-0",
+        "16459672587059b2b8-1",
+        "16459672587059b2b8-2"
+      ],
+      "settings": {
+        "title": "Our Promises ⭐️",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
     },
     "product-recommendations": {
       "type": "product-recommendations",
-      "settings": {}
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false
+      }
+    },
+    "1645967739a17e49c7": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "You may also like ❤️",
+        "collection": "coffee",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false
+      }
     }
   },
   "order": [
     "main",
-    "product-recommendations"
+    "164596725899239f34",
+    "product-recommendations",
+    "1645967739a17e49c7"
   ]
 }
