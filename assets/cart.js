@@ -10,14 +10,6 @@ class CartRemoveButton extends HTMLElement {
 
 customElements.define('cart-remove-button', CartRemoveButton);
 
-const calculateDaysInaYear = (year) => {
-  const start = new Date(year, 0, 1);
-  const end = new Date(year + 1, 0, 1);
-  return (end - start) / (1000 * 60 * 60 * 24);
-} // calculateDaysInaYear
-
-console.log(calculateDaysInaYear(2020));
-
 class CartItems extends HTMLElement {
   constructor() {
     super();
@@ -73,7 +65,7 @@ class CartItems extends HTMLElement {
       sections_url: window.location.pathname
     });
 
-    fetch(`${routes.cart_change_url}`, { ...fetchConfig(), ...{ body } })
+    fetch(`${routes.cart_change_url}`, {...fetchConfig(), ...{ body }})
       .then((response) => {
         return response.text();
       })
