@@ -26,7 +26,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/banner_image_main.jpg",
+        "video_background": true,
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
@@ -100,8 +100,10 @@
       "type": "video",
       "settings": {
         "heading": "",
-        "cover_image": "shopify:\/\/shop_images\/Roasting-video.jpg",
-        "video_url": "https:\/\/player.vimeo.com\/video\/582023095?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+        "video_url": "",
+        "video_file_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/9ca501523d7b4327a1f0bcd7f1b4bf92.mp4",
+        "autoplay": true,
+        "show_controls": false,
         "description": "",
         "full_width": true
       }
@@ -188,7 +190,8 @@
         "c50d9094-975a-46a3-8134-7debfc32dd22",
         "86c1286d-4bdd-4b62-9187-5a00e46c1069"
       ],
-      "settings": {}
+      "settings": {
+      }
     }
   },
   "order": [
