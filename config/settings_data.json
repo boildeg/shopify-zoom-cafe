@@ -1,10 +1,14 @@
 {
   "current": {
-    "colors_accent_1": "#80411e",
+    "colors_accent_1": "#be7d58",
+    "type_header_font": "source_sans_pro_n3",
+    "type_body_font": "source_sans_pro_n4",
+    "page_width": "1200",
     "social_facebook_link": "https:\/\/facebook.com\/shopify",
     "social_pinterest_link": "https:\/\/pinterest.com\/shopify",
     "social_instagram_link": "http:\/\/instagram.com\/shopify",
     "social_youtube_link": "https:\/\/www.youtube.com\/shopify",
+    "currency_code_enabled": false,
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -21,7 +25,8 @@
         "block_order": [
           "announcement-bar-0"
         ],
-        "settings": {}
+        "settings": {
+        }
       },
       "header": {
         "type": "header",
@@ -65,7 +70,7 @@
           "7acc5b2f-fd34-4258-9611-94c88c9f7c60"
         ],
         "settings": {
-          "color_scheme": "background-1",
+          "color_scheme": "background-2",
           "newsletter_enable": true,
           "newsletter_heading": "4 Coffee Lovers 🧡",
           "show_social": true,
@@ -75,6 +80,8 @@
         }
       }
     },
-    "content_for_index": []
+    "content_for_index": [
+
+    ]
   }
 }
