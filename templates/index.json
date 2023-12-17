@@ -6,7 +6,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Try the worlds aromas"
+            "heading": "Explore the worlds aromas"
+          }
+        },
+        "1d00e8f4-a085-4d57-b8bb-5c13d9e1ef9b": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
           }
         },
         "button": {
@@ -23,42 +30,37 @@
       },
       "block_order": [
         "heading",
+        "1d00e8f4-a085-4d57-b8bb-5c13d9e1ef9b",
         "button"
+      ],
+      "custom_css": [
+        ".banner__box.color-background-2 {background-color: rgba(250, 241, 233, 0.4); border-radius: 5px;}",
+        ".button.button--primary {background-color: #be7d58; box-shadow: none;}"
       ],
       "settings": {
         "video_background": true,
-        "desktop_text_box_position": "flex-end",
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
+        "desktop_text_box_position": "center",
+        "color_scheme": "background-2",
+        "stack_images_on_mobile": false,
         "adapt_height_first_image": false
       }
     },
     "featured_products": {
       "type": "featured-collection",
+      "custom_css": [
+        ".title-wrapper--self-padded-tablet-down {text-align: center;}"
+      ],
       "settings": {
         "title": "Our Favorites ❤️",
         "collection": "coffee",
         "products_to_show": 4,
-        "show_view_all": true,
+        "show_view_all": false,
         "swipe_on_mobile": true,
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
         "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": false
-      }
-    },
-    "1645901387db184b26": {
-      "type": "featured-blog",
-      "settings": {
-        "heading": "Learn more about coffee 💡",
-        "blog": "news",
-        "post_limit": 3,
-        "show_image": true,
-        "show_date": false,
-        "show_author": false,
-        "soft_background": false,
-        "show_view_all": true
+        "show_image_outline": false,
+        "show_vendor": true
       }
     },
     "image_text": {
@@ -96,13 +98,14 @@
         "autoplay": false,
         "show_controls": false,
         "loop_video": false,
-        "height": "adapt",
+        "height": "small",
         "color_scheme": "background-1",
         "layout": "image_first"
       }
     },
     "16459023138c6fe3c6": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "",
         "video_url": "",
@@ -110,7 +113,7 @@
         "autoplay": true,
         "show_controls": false,
         "description": "",
-        "full_width": true
+        "full_width": false
       }
     },
     "164590231816ba9fb5": {
@@ -122,7 +125,7 @@
             "product": "coffee-ethiopia",
             "secondary_background": false,
             "second_image": false,
-            "image_padding": false
+            "image_padding": true
           }
         },
         "5c29975b-5c7a-433a-b3ab-939f7ecf5d1f": {
@@ -151,6 +154,45 @@
         "heading": "Coffee of The Month ⭐️",
         "desktop_layout": "left",
         "mobile_layout": "collage"
+      }
+    },
+    "7b6cbcfd-ad31-4d96-890a-c46f33c3feb9": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15499662360676__7b6cbcfd-ad31-4d96-890a-c46f33c3feb9-1666452296edf60755-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Explore the worlds coffee aromas"
+          }
+        },
+        "template--15499662360676__7b6cbcfd-ad31-4d96-890a-c46f33c3feb9-1666452296edf60755-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "template--15499662360676__7b6cbcfd-ad31-4d96-890a-c46f33c3feb9-1666452296edf60755-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "See Collection",
+            "button_link": "shopify:\/\/collections"
+          }
+        }
+      },
+      "block_order": [
+        "template--15499662360676__7b6cbcfd-ad31-4d96-890a-c46f33c3feb9-1666452296edf60755-0",
+        "template--15499662360676__7b6cbcfd-ad31-4d96-890a-c46f33c3feb9-1666452296edf60755-1",
+        "template--15499662360676__7b6cbcfd-ad31-4d96-890a-c46f33c3feb9-1666452296edf60755-2"
+      ],
+      "settings": {
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/9ca501523d7b4327a1f0bcd7f1b4bf92.mp4",
+        "video_image_url": "",
+        "autoplay": true,
+        "show_controls": false,
+        "loop_video": true,
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first"
       }
     },
     "164597928182a952ea": {
@@ -198,54 +240,28 @@
       "settings": {
       }
     },
-    "7b6cbcfd-ad31-4d96-890a-c46f33c3feb9": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--15499662360676__7b6cbcfd-ad31-4d96-890a-c46f33c3feb9-1666452296edf60755-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text"
-          }
-        },
-        "template--15499662360676__7b6cbcfd-ad31-4d96-890a-c46f33c3feb9-1666452296edf60755-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
-        "template--15499662360676__7b6cbcfd-ad31-4d96-890a-c46f33c3feb9-1666452296edf60755-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15499662360676__7b6cbcfd-ad31-4d96-890a-c46f33c3feb9-1666452296edf60755-0",
-        "template--15499662360676__7b6cbcfd-ad31-4d96-890a-c46f33c3feb9-1666452296edf60755-1",
-        "template--15499662360676__7b6cbcfd-ad31-4d96-890a-c46f33c3feb9-1666452296edf60755-2"
-      ],
+    "1645901387db184b26": {
+      "type": "featured-blog",
       "settings": {
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/9ca501523d7b4327a1f0bcd7f1b4bf92.mp4",
-        "video_image_url": "",
-        "autoplay": true,
-        "show_controls": false,
-        "loop_video": true,
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "text_first"
+        "heading": "Learn more about coffee 💡",
+        "blog": "news",
+        "post_limit": 3,
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "soft_background": false,
+        "show_view_all": true
       }
     }
   },
   "order": [
     "image_banner",
     "featured_products",
-    "1645901387db184b26",
     "image_text",
     "16459023138c6fe3c6",
     "164590231816ba9fb5",
+    "7b6cbcfd-ad31-4d96-890a-c46f33c3feb9",
     "164597928182a952ea",
-    "7b6cbcfd-ad31-4d96-890a-c46f33c3feb9"
+    "1645901387db184b26"
   ]
 }
